@@ -1,0 +1,287 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+h1, h4,h5{
+  text-align: center;
+  font-weight: bold;
+padding-top: 0.2em;
+}
+/*navbar*/
+.navbar,footer{
+	
+	background-color: #ff8080;!important;
+	/*border: 1px solid blue;*/
+	padding: 0.75em;
+}
+a{
+	color: maroon!important;
+	font-weight: bold;
+  font-size: 1.2em;
+}
+/*jumbotron*/
+.jumbotron {
+	background-color: grey;
+	 background-size: cover;
+	background-position: center;
+	height: 700px;
+	/*border: 8px solid blue;*/
+	position: relative;
+}
+.jumbotron h1{
+  font-family: "Monoton";
+  font-size: 4em;
+  color: black;
+  text-shadow: 2px 1px #ff8080 ;
+}
+
+.jumbotron p{
+  width: 70%;
+  margin: 0 auto;
+}
+
+span.blue{
+	color: orange;
+}
+#banner{
+	position: absolute;
+	top: 500px;
+	left: 600px;
+}
+/*end of jumbotron*/
+/*gallary*/
+ .container-fluid{
+ 	margin: 0 auto;
+ 	/*border: 1px solid green;*/
+  padding: 0;
+
+ }
+ .row{
+ /*	border: 1px solid orange;*/
+ 	margin: 0 auto;
+ 	padding-top: 0.5em;
+ }
+ .card-deck{
+ 	
+ 	padding: 0.75em;
+ 	margin: 0 auto;
+ 	border-radius: 1em;
+ }
+ .card img{
+  opacity: 0.7;
+  max-width: 100%;
+  height: auto;
+  transition: .5s transform,
+              .5s opacity;
+}
+
+.card img:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+
+/*end of gallary*/
+
+
+section#validation 
+{
+	background-color: #b8b894!important;
+	/*border: 1px solid green;*/
+}
+
+form input.form-control { 
+  border:0px;
+  border-radius:0px; 
+}
+
+.main .btn { 
+  margin-top:30px; 
+  color:#fff;
+  background:rgba(0,240,190,0.25);
+  border:0px;
+  border-radius:0px; 
+}
+
+.first-name-error,
+.last-name-error,
+.email-error,
+.password-error {
+  color: #dd4b39;
+  font-weight: 600;
+}
+button.btn {
+  background: transparent;
+  border: none;
+  color: #00f28f;
+  cursor: pointer;
+  font-size: 36px;
+  padding: 20px 24px;
+  transition: background 2s, color 1s;
+}
+
+button.btn:hover {
+  background: #00f28f;
+  color: #fff;
+  transition: background 2s, color 1s;
+}
+
+/* Footer */
+/* Google map */
+#map{
+	width:100%;
+	height:600px;
+  /*border: 1px solid yellow;*/
+  padding: 0;
+  margin: 0;
+}
+.google{
+    margin: 0;
+}
+/*project*/
+.skillset {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill-html {
+  background-color: #E55126;
+}
+.skill-js {
+  background-color: #E5A227;
+}
+.skill-new {
+ background-color:  #993366;
+}
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+.navigation.work { 
+  color: #ffd400;
+ 
+  text-shadow: 0 0 10px #ffd400;
+} 
+
+/*footer*/
+.wrapper{
+    text-align: center;
+}
+.wrapper h4{
+  font-weight: bold;
+}
+.wrapper h5{
+  text-transform: lowercase;
+}
+
+.end{
+  text-align: center;
+  font-weight: bold;
+}
+/*end of footer*/
+/*media query*/
+@media only screen and (max-width: 320px){
+  .card{
+    width: 300px;
+    background-color: grey!important;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 480px){
+  /*jumbootron*/
+  .jumbotron{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid green;
+  }
+  .alert{
+    margin-top: 0;
+  }
+  .jumbotron h1{
+  
+  font-size: 3em;
+  
+}
+.jumbotron p{
+  display: none;
+}
+/*footer section*/
+  .wrapper h5:nth-child(5){
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+ 
+
+  .card{
+    width: 100%;
+    background-color: black!important;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px)
+{
+  .card{
+    width: 50%;
+    background-color: red!important;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+/*it works*/
+
+/*this is really great if the min-width is 768px*/
+@media only screen and (min-width: 1000px){
+  .card{
+    width: 33%;
+    background-color: pink!important;
+    margin: 0 auto;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+@media only screen  and (min-width: 1280px){
+  .card{
+    width: 33%;
+    background-color: blue!important;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+/*@media only screen and (max-width: 1200px){
+  .card{
+    width: 50%;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}*/
+  /*as we set the same width for this we donot want any more stratch*/
+  /*as we set the same width for this we donot want any more stratch*/
+
+
