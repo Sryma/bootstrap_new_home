@@ -200,15 +200,19 @@ ul {
 /*end of footer*/
 /*media query*/
 @media only screen and (max-width: 320px){
+  .jumbotron{
+    display: none;
+  }
+
   .card{
-    width: 300px;
-    background-color: grey!important;
+    width: 320px;
+    background-color: grey;
   }
   .card-img-top{
     width: 100%;
   }
 }
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 321px) and (max-width: 375px){
   /*jumbootron*/
   .jumbotron{
     background-size: 100%;
@@ -235,39 +239,43 @@ ul {
 
   .card{
     width: 100%;
-    background-color: black!important;
+    background-color: orange;
   }
   .card-img-top{
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px)
-{
+@media only screen and (min-width: 376px) and (max-width: 425px){
+  .card{
+    width: 100%;
+    background-color: blue;
+  }
+  .card-img-top{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
   .card{
     width: 50%;
-    background-color: red!important;
+    background-color: pink;
   }
   .card-img-top{
     width: 100%;
   }
 }
-/*it works*/
-
-/*this is really great if the min-width is 768px*/
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 769px) and (max-width: 1024px){
   .card{
-    width: 33%;
-    background-color: pink!important;
-    margin: 0 auto;
+    width: 33.33%;
+    background-color: green;
   }
   .card-img-top{
     width: 100%;
   }
 }
-@media only screen  and (min-width: 1280px){
+@media only screen and (min-width: 1025px) and (max-width: 1440px){
   .card{
-    width: 33%;
-    background-color: blue!important;
+    width: 33.33%;
+    background-color: beige;
   }
   .card-img-top{
     width: 100%;
