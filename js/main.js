@@ -42,7 +42,8 @@ var wall = new freewall("#freewall");
         animate: true,
         cellW: 200,
         cellH: 'auto',
-        onResize: function() {
+        onResize: function(e) {
+          e.preventDefault();
           wall.fitWidth();
         }
       });
