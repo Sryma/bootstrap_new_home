@@ -265,51 +265,6 @@ ul {
       }
       /*end of plugin*/
 
-@media only screen and (min-width: 376px) and (max-width: 425px){
-  .card{
-    width: 100%;
-    background-color: blue;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 426px) and (max-width: 768px){
-  .card{
-    width: 50%;
-    background-color: pink;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px){
-  .card{
-    width: 33.33%;
-    background-color: green;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1025px) and (max-width: 1440px){
-  .card{
-    width: 33.33%;
-    background-color: beige;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}
-/*@media only screen and (max-width: 1200px){
-  .card{
-    width: 50%;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}*/
-  /*as we set the same width for this we donot want any more stratch*/
-  /*as we set the same width for this we donot want any more stratch*/
+
 
 
