@@ -130,17 +130,7 @@ button.btn:hover {
 }
 
 /* Footer */
-/* Google map */
-#map{
-	width:100%;
-	height:600px;
-  /*border: 1px solid yellow;*/
-  padding: 0;
-  margin: 0;
-}
-.google{
-    margin: 0;
-}
+
 /*project*/
 .skillset {
   display: flex;
@@ -182,7 +172,27 @@ ul {
  
   text-shadow: 0 0 10px #ffd400;
 } 
+/* jQuery plugin css*/
 
+.free-wall {
+        margin: 2px;
+      }
+      .brick {
+        width: 33%;
+      }
+      .info {
+        padding: 15px;
+        color: #333;
+      }
+      .brick img {
+        margin: 0px;
+        padding: 0px;
+        /*display: flex;*/
+      }
+      /*end of plugin*/
+
+/*footer section*/
+ 
 /*footer*/
 .wrapper{
     text-align: center;
@@ -199,20 +209,14 @@ ul {
   font-weight: bold;
 }
 /*end of footer*/
+
 /*media query*/
 @media only screen and (max-width: 320px){
   .jumbotron{
     display: none;
   }
 
-  .card{
-    width: 320px;
-    background-color: grey;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}
+  
 @media only screen and (min-width: 321px) and (max-width: 375px){
   /*jumbootron*/
   .jumbotron{
@@ -231,40 +235,4 @@ ul {
 .jumbotron p{
   display: none;
 }
-/*footer section*/
-  .wrapper h5:nth-child(5){
-  text-align: center;
-  border-bottom: 1px solid #e6e6e6;
-}
- 
-
-  .card{
-    width: 100%;
-    background-color: orange;
-  }
-  .card-img-top{
-    width: 100%;
-  }
-}
-/* jQuery plugin css*/
-
-.free-wall {
-        margin: 15px;
-      }
-      .brick {
-        width: 33%;
-      }
-      .info {
-        padding: 15px;
-        color: #333;
-      }
-      .brick img {
-        margin: 0px;
-        padding: 0px;
-        display: block;
-      }
-      /*end of plugin*/
-
-
-
 
