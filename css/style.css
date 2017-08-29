@@ -74,14 +74,9 @@ span.blue{
   opacity: 0.7;
   max-width: 100%;
   height: auto;
-  transition: .5s transform,
-              .5s opacity;
+  
 }
 
-.card img:hover{
-  opacity: 1;
-  transform: scale(1.1);
-}
 
 
 /*end of gallary*/
@@ -177,9 +172,9 @@ ul {
 .free-wall {
         margin: 2px;
       }
-      .brick {
+      /*.brick {
         width: 33%;
-      }
+      }*/
       .info {
         padding: 15px;
         color: #333;
