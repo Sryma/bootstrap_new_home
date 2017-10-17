@@ -43,12 +43,17 @@ a{
 .pic {
 	background: url(../images/img_1.jpeg) center center no-repeat;
 	 background-size: cover;
-	
-  background-attachment: fixed;
+	background-attachment: fixed;
+  
 	/*border: 8px solid blue;*/
 	position: relative;
   top:0;
   height: 100%;
+}
+.picture{
+  background: url(../images/fine_home_3.jpg)center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .jumbotron h1{
   font-family: "Monoton";

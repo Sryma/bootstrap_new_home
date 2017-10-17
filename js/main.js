@@ -6,6 +6,19 @@ var typed3 = new Typed('.element', {
     smartBackspace: false, // this is a default
     loop: true
   });
+//coursel
+ $('.carousel').slick({
+    
+    autoplay: true,
+    arrows: false,
+    // dots:true,
+    autoplaySpeed: 2000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    draggable: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
 
 $(document).ready(function() {
       var owl = $('.owl-carousel');
