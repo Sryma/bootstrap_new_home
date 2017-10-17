@@ -114,7 +114,16 @@ a{
 
 /*end of gallary*/
 
+/*carousel*/
+ul.flex li{
+  display: inline-block;
+  flex-direction: row;
 
+}
+ul.flex i.fa{
+  padding-right: 100px;
+  text-align: center;
+}
 section#validation 
 {
 	background-color: #b8b894!important;
