@@ -28,8 +28,27 @@ a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
   color: red/*!important*/;
   background-color: green/*!important*/;
 }
+/*header*/
+.navbar{
+  background-color: #4d4d4d!important;
+
+  /*padding-bottom: 40px;*/
+}
+a.col{
+  color: white!important;
+}
+a.col:hover{
+  text-decoration: underline;
+  color: blue;
+  background-color: orange;
+}
+a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
+  
+  color: red/*!important*/;
+  background-color: green/*!important*/;
+}
 a{
-	color: maroon!important;
+	color: white;
 	font-weight: bold;
   font-size: 1.2em;
 }
@@ -44,9 +63,7 @@ a{
 	background: url(../images/img_1.jpeg) center center no-repeat;
 	 background-size: cover;
 	background-attachment: fixed;
-  
-	/*border: 8px solid blue;*/
-	position: relative;
+  position: relative;
   top:0;
   height: 100%;
 }
@@ -61,17 +78,6 @@ a{
   color: black;
   text-shadow: 2px 1px #ff8080 ;
 }
-
-
-
-/*span.blue{
-	color: orange;
-}
-#banner{
-	position: absolute;
-	top: 500px;
-	left: 600px;
-}*/
 .element{
   display: inline-
   block;
@@ -85,6 +91,57 @@ a{
   left:50%;
 }
 /*end of jumbotron*/
+/* 2nd section--- Our services*/
+.folder{
+    padding:5% 0 5% 0;
+  
+}
+#middle h3,#middle p{
+  color: black;
+}
+/* end of 2nd section*/
+/* section-4 Housing plan*/
+#port{
+  background-color:rgba(74, 79, 89,0.8)  ;
+}
+.portfolio{
+  margin-top:3.5%;
+  }
+  .thumbnail img{
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+  .overlay {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 /*gallary*/
  .container-fluid{
  	margin: 0 auto;
