@@ -33,15 +33,22 @@ a{
 	font-weight: bold;
   font-size: 1.2em;
 }
+#start{
+  position: relative;
+  margin-top: 5.1%;
+  /*border:1px solid green;*/
+  height: 500px;
+}
 /*jumbotron*/
-.jumbotron {
+.pic {
 	background: url(../images/img_1.jpeg) center center no-repeat;
 	 background-size: cover;
-	background-position: center;
-	height: 700px;
+	
   background-attachment: fixed;
 	/*border: 8px solid blue;*/
 	position: relative;
+  top:0;
+  height: 100%;
 }
 .jumbotron h1{
   font-family: "Monoton";
@@ -50,10 +57,7 @@ a{
   text-shadow: 2px 1px #ff8080 ;
 }
 
-.jumbotron p{
-  width: 70%;
-  margin: 0 auto;
-}
+
 
 /*span.blue{
 	color: orange;
