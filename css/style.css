@@ -1,21 +1,32 @@
-html, body {
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+body,html{
+  font-size: 18px;
   margin: 0;
   padding: 0;
-  font-family: 'Arvo', serif;
-  font-size: 16px;
-  color:#1ed298;
+  font-family: "helvatica";
+
 }
-h1, h4,h5{
-  text-align: center;
-  font-weight: bold;
-padding-top: 0.2em;
+/*header*/
+.navbar{
+  background-color: #4d4d4d!important;
+
+  /*padding-bottom: 40px;*/
 }
-/*navbar*/
-.navbar, footer{
-	background-color: #17a2b8!important;
-	/*background-color: #ff8080;!important;*/
-	/*border: 1px solid blue;*/
-	padding: 0.75em;
+a.col{
+  color: white!important;
+}
+a.col:hover{
+  text-decoration: underline;
+  color: blue;
+  background-color: orange;
+}
+a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
+  
+  color: red/*!important*/;
+  background-color: green/*!important*/;
 }
 a{
 	color: maroon!important;
@@ -24,10 +35,11 @@ a{
 }
 /*jumbotron*/
 .jumbotron {
-	background-color: grey;
+	background: url(../images/img_1.jpeg) center center no-repeat;
 	 background-size: cover;
 	background-position: center;
 	height: 700px;
+  background-attachment: fixed;
 	/*border: 8px solid blue;*/
 	position: relative;
 }
@@ -43,13 +55,25 @@ a{
   margin: 0 auto;
 }
 
-span.blue{
+/*span.blue{
 	color: orange;
 }
 #banner{
 	position: absolute;
 	top: 500px;
 	left: 600px;
+}*/
+.element{
+  display: inline-
+  block;
+  margin-top: 100px;
+  font-size: 2rem;
+  color:white;
+}
+#scroll_1{
+  position: absolute;
+  top:70%;
+  left:50%;
 }
 /*end of jumbotron*/
 /*gallary*/
