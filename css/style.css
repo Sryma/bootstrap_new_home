@@ -94,29 +94,41 @@ a{
 /* 2nd section--- Our services*/
 .folder{
     padding:5% 0 5% 0;
+    border: 1px solid green;
   
 }
+
+
 #middle h3,#middle p{
   color: black;
 }
 /* end of 2nd section*/
 /*price plan*/
 .price{
-  width:100%;
-  height: 600px;
+  /*width:100px!important;*/
+  /*height: 600px;*/
   /*background-color: yellow;*/
   border:1px solid blue;
   position: relative;
+ /* margin-right: 10px;*/
 }
-.work{
-  height:60px;
-  /*position: absolute;
-  top:0;*/
-  background-color: pink!important;
-  border: 1px solid red;
+/*.price:nth-child(1){
+  margin-left: 10px;
+}*/
+.work h1{
+  
+  border: 1px solid yellow;
+background: pink;
+
 }
-/*end of price plan*/
-/* section-4 Housing plan*/
+
+.zoom{
+  background: url(../images/background_clint.jpg)center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+/* end of testimonial*/
 #port{
   background-color:rgba(74, 79, 89,0.8)  ;
 }
