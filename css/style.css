@@ -126,7 +126,7 @@ background: pink;
   background: url(../images/background_clint.jpg)center center no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 600px;
+  height: auto;
 }
 /* end of testimonial*/
 #port{
