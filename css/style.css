@@ -11,47 +11,17 @@ body,html{
 }
 /*header*/
 .navbar{
-  background-color: #4d4d4d!important;
+  background-color:rgb(157, 173, 198)!important;
 
   /*padding-bottom: 40px;*/
 }
-a.col{
-  color: white!important;
-}
-a.col:hover{
-  text-decoration: underline;
-  color: blue;
-  background-color: orange;
-}
-a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
-  
-  color: red/*!important*/;
-  background-color: green/*!important*/;
-}
-/*header*/
-.navbar{
-  background-color: #4d4d4d!important;
 
-  /*padding-bottom: 40px;*/
-}
-a.col{
-  color: white!important;
-}
-a.col:hover{
+a.begin:focus, a.begin:hover{
   text-decoration: underline;
-  color: blue;
-  background-color: orange;
-}
-a.col:active,a.col:focus,a.col:visited,.btn:active,.btn:focus,.btn:visited{
-  
-  color: red/*!important*/;
-  background-color: green/*!important*/;
-}
-a{
-	color: white;
-	font-weight: bold;
-  font-size: 1.2em;
-}
+  color: rgb(178, 148, 204)!important;
+  transition: all 0.3s ease 0s;
+ }
+
 #start{
   position: relative;
   margin-top: 5.1%;
@@ -104,22 +74,15 @@ a{
 }
 /* end of 2nd section*/
 /*price plan*/
-.price{
-  /*width:100px!important;*/
-  /*height: 600px;*/
-  /*background-color: yellow;*/
-  border:1px solid blue;
-  position: relative;
- /* margin-right: 10px;*/
-}
-/*.price:nth-child(1){
-  margin-left: 10px;
-}*/
+
 .work h1{
   
   border: 1px solid yellow;
 background: pink;
 
+}
+.work{
+  border: 2px solid red;
 }
 
 .zoom{
@@ -128,9 +91,10 @@ background: pink;
   background-size: cover;
   height: auto;
 }
+/*problem solved by using auto*/
 /* end of testimonial*/
 #port{
-  background-color:rgba(74, 79, 89,0.8)  ;
+  background-color:rgb(170, 179, 193);
 }
 .portfolio{
   margin-top:3.5%;
@@ -294,24 +258,6 @@ ul {
  
   text-shadow: 0 0 10px #ffd400;
 } 
-/* jQuery plugin css*/
-
-.free-wall {
-        margin: 2px;
-      }
-      /*.brick {
-        width: 33%;
-      }*/
-      .info {
-        padding: 15px;
-        color: #333;
-      }
-      .brick img {
-        margin: 0px;
-        padding: 0px;
-        /*display: flex;*/
-      }
-      /*end of plugin*/
 
 /*footer section*/
  
@@ -326,9 +272,11 @@ ul {
   text-transform: lowercase;
 }
 
-.end{
+#end{
   text-align: center;
   font-weight: bold;
+background-color:rgb(99, 123, 160)!important;
+  
 }
 /*end of footer*/
 
