@@ -1,6 +1,6 @@
 // type.min plugin
 var typed3 = new Typed('.element', {
-    strings: ['Hi I am: <i style="color:maroon">web developer</i>', 'I love to: <strong style="color:maroon">make website</strong>', 'Welcome to my <i style="color:maroon">portfolio</i>'],
+    strings: ['Hi: <i style="color:maroon">welcome</i>', 'We are: <strong style="color:maroon">happy </strong>', 'to help <i style="color:maroon">Customers</i>'],
     typeSpeed: 0,
     backSpeed: 0,
     smartBackspace: false, // this is a default
@@ -51,7 +51,8 @@ $(document).ready(function() {
                 }
       });
       })
-    
+     
+       
     
  // $(".owl-carousel").owlCarousel({
  //        autoPlay: true,
