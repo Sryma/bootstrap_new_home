@@ -25,8 +25,7 @@ a.begin:focus, a.begin:hover{
 #start{
   position: relative;
   margin-top: 5.1%;
-  /*border:1px solid green;*/
-  height: 500px;
+   height: 500px;
 }
 /*jumbotron*/
 .pic {
@@ -64,33 +63,27 @@ a.begin:focus, a.begin:hover{
 /* 2nd section--- Our services*/
 .folder{
     padding:5% 0 5% 0;
-    border: 1px solid green;
-  
-}
-
-
+    }
 #middle h3,#middle p{
   color: black;
 }
 /* end of 2nd section*/
 /*price plan*/
-
+.planner{
+  margin-top: 5%;
+}
 .work h1{
-  
-  border: 1px solid yellow;
-
-
+   border: 1px solid yellow;
 }
-
 .plan{
-  background-color: blue;
-  padding-top: 1%;
+  
+  padding-top: 10%;
 }
-
 .work{
-  border: 2px solid red;
+ 
   background: pink;
   margin:0;
+
 }
 
 .zoom{
@@ -142,175 +135,39 @@ a.begin:focus, a.begin:hover{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/*gallary*/
- .container-fluid{
- 	margin: 0 auto;
- 	/*border: 1px solid green;*/
-  padding: 0;
-
- }
- .row{
- /*	border: 1px solid orange;*/
- 	margin: 0 auto;
- 	padding-top: 0.5em;
- }
- .card-deck{
- 	
- 	padding: 0.75em;
- 	margin: 0 auto;
- 	border-radius: 1em;
- }
- .card img{
-  opacity: 0.7;
-  max-width: 100%;
-  height: auto;
-  
-}
-
-
-
-/*end of gallary*/
-
-/*carousel*/
-ul.flex li{
-  display: inline-block;
-  flex-direction: row;
-
-}
-ul.flex i.fa{
-  padding-right: 100px;
-  text-align: center;
-}
-section#validation 
-{
-	background-color: #b8b894!important;
-	/*border: 1px solid green;*/
-}
-
-form input.form-control { 
-  border:0px;
-  border-radius:0px; 
-}
-
-.main .btn { 
-  margin-top:30px; 
-  color:#fff;
-  background:rgba(0,240,190,0.25);
-  border:0px;
-  border-radius:0px; 
-}
-
-.first-name-error,
-.last-name-error,
-.email-error,
-.password-error {
-  color: #dd4b39;
-  font-weight: 600;
-}
-button.btn {
-  background: transparent;
-  border: none;
-  color: #00f28f;
-  cursor: pointer;
-  font-size: 36px;
-  padding: 20px 24px;
-  transition: background 2s, color 1s;
-}
-
-button.btn:hover {
-  background: #00f28f;
-  color: #fff;
-  transition: background 2s, color 1s;
-}
-
-/* Footer */
-
-/*project*/
-.skillset {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.skill-html {
-  background-color: #E55126;
-}
-.skill-js {
-  background-color: #E5A227;
-}
-.skill-new {
- background-color:  #993366;
-}
-.projects-button {
-  padding: 0.75em 1.25em;
-  background-color: whitesmoke;
-  opacity: 0.9;
-  width: 10em;
-  color: black;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.projects {
-  margin: 1em 0;
-}
-
-.active {
-  background-color: #333333;
-  color: whitesmoke;
-}
-.navigation.work { 
-  color: #ffd400;
- 
-  text-shadow: 0 0 10px #ffd400;
-} 
-
-/*footer section*/
- 
-/*footer*/
-.wrapper{
-    text-align: center;
-}
-.wrapper h4{
-  font-weight: bold;
+/* footer*/
+#end{
+  background-color:  rgb(179, 230, 255);
 }
 .wrapper h5{
-  text-transform: lowercase;
+  color:rgb(0, 153, 230);
 }
-
-#end{
-  text-align: center;
-  font-weight: bold;
-background-color:rgb(99, 123, 160)!important;
-  
-}
-/*end of footer*/
-
-/*media query*/
-@media only screen and (max-width: 320px){
-  .jumbotron{
-    display: none;
-  }
-
-  
-@media only screen and (min-width: 321px) and (max-width: 375px){
-  /*jumbootron*/
-  .jumbotron{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border: 2px solid green;
-  }
-  .alert{
-    margin-top: 0;
+/* media query*/
+@media only screen and (max-width: 480px){
+  body,html{
+    font-size: 16px;
+    background-color: rgb(255, 153, 255);
   }
   .jumbotron h1{
-  
-  font-size: 3em;
-  
+    font-size: 2rem;
+    color:rgb(128, 0, 128);
+  }
+  #end{
+    background-color: rgb(255, 204, 255);
+  }
 }
-.jumbotron p{
-  display: none;
+@media only screen and (max-width: 481px) and (min-width: 768px){
+  body,html{
+    font-size: 18px;
+    background-color: rgb(255, 153, 255);
+  }
+  .jumbotron h1{
+    font-size: 2rem;
+    color:rgb(255, 153, 102);
+  }
+  #end{
+    background-color: rgb(255, 204, 179);
+  }
 }
+
 
