@@ -36,11 +36,7 @@ a.begin:focus, a.begin:hover{
   top:0;
   height: 100%;
 }
-.picture{
-  background: url(../images/fine_home_3.jpg)center center no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+
 .jumbotron h1{
   font-family: "Monoton";
   font-size: 4em;
@@ -68,6 +64,7 @@ a.begin:focus, a.begin:hover{
   color: black;
 }
 /* end of 2nd section*/
+
 /*price plan*/
 .planner{
   margin-top: 5%;
@@ -94,15 +91,20 @@ a.begin:focus, a.begin:hover{
 }
 /*problem solved by using auto*/
 /* end of testimonial*/
+/*plan*/
 #port{
   background-color:rgb(170, 179, 193);
+}
+.sub{
+  padding-top: 2%;
+  color:purple;
 }
 .portfolio{
   margin-top:3.5%;
   }
   .thumbnail img{
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 500px;
   position: relative;
 }
   .overlay {
@@ -135,6 +137,17 @@ a.begin:focus, a.begin:hover{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+/*end of plan*/
+/*Gallary*/
+.picture{
+  background: url(../images/fine_home_8.jpg)center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    }
+.picture p{
+    padding: 2%;
+  }
+/*end of Gallary*/
 /* footer*/
 #end{
   background-color:  rgb(179, 230, 255);
