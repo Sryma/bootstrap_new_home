@@ -12,8 +12,6 @@ body,html{
 /*header*/
 .navbar{
   background-color:rgb(157, 173, 198)!important;
-
-  /*padding-bottom: 40px;*/
 }
 
 a.begin:focus, a.begin:hover{
@@ -28,14 +26,13 @@ a.begin:focus, a.begin:hover{
   height: 500px;
 }
 /*jumbotron*/
-.pic {
+.jumbotron {
 	background: url(../images/img_1.jpeg) center center no-repeat;
 	 background-size: cover;
 	background-attachment: fixed;
   position: relative;
   top:0;
   height: 100%;
-
 }
 
 .jumbotron h1{
@@ -164,8 +161,9 @@ a.begin:focus, a.begin:hover{
     font-size: 16px;
     background-color: rgb(255, 153, 255);
   }
-  .pic{
+  .jumbotron{
     width:100%;
+    height: 100%;
   }
   .jumbotron h1{
     font-size: 2rem;
@@ -176,6 +174,7 @@ a.begin:focus, a.begin:hover{
   }
   .zoom{
     width:100%;
+    height:100%;
   }
 }
 @media only screen and (max-width: 481px) and (min-width: 768px){
@@ -187,14 +186,16 @@ a.begin:focus, a.begin:hover{
     font-size: 2rem;
     color:rgb(255, 153, 102);
   }
-  .pic{
+  .jumbotron{
     width:100%;
+    height: 100%;
   }
   #end{
     background-color: rgb(255, 204, 179);
   }
   .zoom{
     width:100%;
+    height: 100%;
   }
 }
 
