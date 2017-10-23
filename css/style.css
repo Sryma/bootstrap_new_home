@@ -77,11 +77,9 @@ a.begin:focus, a.begin:hover{
   padding-top: 10%;
 }
 .work{
- 
-  background: pink;
-  margin:0;
-
-}
+   background: rgb(178, 148, 204);
+  margin-top:1rem;
+ }
 
 .zoom{
   background: url(../images/background_clint.jpg)center center no-repeat;
