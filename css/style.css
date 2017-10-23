@@ -40,9 +40,11 @@ a.begin:focus, a.begin:hover{
 .jumbotron h1{
   font-family: "Monoton";
   font-size: 4em;
-  color: black;
+  color: purple;
+  padding-top: 2rem;
   text-shadow: 2px 1px #ff8080 ;
 }
+
 .element{
   display: inline-
   block;
